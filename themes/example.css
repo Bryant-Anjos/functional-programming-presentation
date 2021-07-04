@@ -1,8 +1,13 @@
 /* @theme example */
 
-@import 'uncover';
+@import "uncover";
 
 section {
   background: #cef;
   color: #135;
+}
+
+ul {
+  margin: 0;
+  line-height: 1.2rem;
 }

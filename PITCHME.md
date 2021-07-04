@@ -2,74 +2,143 @@
 marp: true
 title: Marp CLI example
 description: Hosting Marp slide deck on the web
-theme: uncover
+theme: example
 paginate: true
 _paginate: false
+header: Field Hack
+_header: ''
+footer: Programação Funcional
+_footer: ''
 ---
 
 ![bg](./assets/gradient.jpg)
+![](#fff)
 
-# <!--fit--> Marp CLI example
-
-Hosting Marp slide deck on the web
-
-https://github.com/yhatt/marp-cli-example
-
-<style scoped>a { color: #eee; }</style>
-
-<!-- This is presenter note. You can write down notes through HTML comment. -->
+# <!--fit--> Programação funcional 
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+A programação funcional é um paradigma de programação no qual tentamos ligar tudo no estilo de funções matemáticas puras. É um tipo declarativo de estilo de programação. Seu foco principal é “o que resolver” em contraste com um estilo imperativo onde o foco principal é “como resolver”.
+
+<style scoped>
+  p {
+    font-size: 0.9rem;
+  }
+</style>
+
+---
+
+# <!--fit--> Paradigmas de programação
 
 ---
 
 ![bg](#123)
 ![](#fff)
 
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
+##### <!--fit--> **Paradigmas de programação**
 
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
-
----
-
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
-
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
+- #### Imperativos
+  - Programação procedural
+  - Programação orientada a objetos
+- #### Declarativos
+  - Programação funcional
+  - Programação lógica 
 
 ---
 
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
+![](https://icongr.am/octicons/database.svg)
 
-## **[Netlify](https://www.netlify.com/)**
 
-#### Ready to write & host your deck!
+```sql
+SELECT campo1, campo2 FROM tabela WHERE campo3 = "valor";
+```
 
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+<style scoped>
+  img {
+    width: 20vh;
+  }
+
+  pre {
+    background: none;
+    box-shadow: none;
+  }
+
+  code {
+    background: inherit;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+</style>
 
 ---
 
-![bg right 60%](https://icongr.am/simple/zeit.svg)
+# <!--fit--> **Conceitos de programação funcional**
 
-## **[Vercel](https://vercel.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
-
----
-
-### <!--fit--> :ok_hand:
+- #### Funções puras
+- #### Imutabilidade
+- #### Recursão
+- #### Transparência referencial
+- #### First-class function e High-order functions
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+![bg](#123)
+![](#fff)
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+- #### Vantagens
+  - ##### Funções puras são mais simples de entender
+  - ##### Testar e debugar é mais fácil
+  - ##### Aplicação no uso de concorrência/paralelimo
+  
+- #### Desvantagens
+  - ##### Maior uso de memória e menos performático
+  - ##### Uso de recursão ao invés de loops é mais complexo
+  - ##### Trabalhar com I/O pode ser uma tarefa trabalhosa
 
-https://github.com/yhatt/marp-cli-example
+---
+
+# **Aplicações**
+
+- #### Em computações matemáticas
+- #### Onde concorrência e paralelismo é necessário
+- #### Em sistemas que requer mais confiabilidade, como no setor bancário
+
+---
+
+![bg](#123)
+![](#fff)
+
+# <!--fit--> **Linguagens de programação funcionais**
+
+- ##### Multiparadigma
+  - ###### Javascript
+  - ###### Python
+  - ###### PHP
+  - ###### Rust
+  - ###### Kotlin
+- ##### Puramente funcionais
+  - ###### Closure
+  - ###### Haskel
+  - ###### Lisp
+  - ###### Erlang
+  - ###### Elixir
+
+<style scoped>
+ li {
+   line-height: 0.3em
+ }
+</style>
+
+---
+
+## **Mercado e educação**
+
+- ##### Telecomunicações (Erlang)
+- ##### Whatsapp usa Erlang para implementar suas necessidades de concorrência
+- ##### Facebook usa o Haskel para o sistema anti-spam
+- ##### [Nubank usa o Clojure para seus serviços e para a internacionalização](https://blog.nubank.com.br/programacao-funcional-o-que-e-relacao-nubank/)
+- ##### Rocketseat possui conteúdos um curso de Elixir
+
+---
+
+### <!--fit--> :blue_heart:

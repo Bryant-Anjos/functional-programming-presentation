@@ -1,7 +1,7 @@
 {
-  "name": "marp-cli-example",
+  "name": "functional-programming-presentation",
   "version": "0.0.0",
-  "author": "Yuki Hattori <yukihattori1116@gmail.com>",
+  "author": "Bryant Moreira dos Anjos <bryant_mx@hotmail.com>",
   "license": "WTFPL",
   "private": true,
   "scripts": {
