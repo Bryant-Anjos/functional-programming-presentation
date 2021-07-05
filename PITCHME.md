@@ -80,6 +80,17 @@ SELECT campo1, campo2 FROM tabela WHERE campo3 = "valor";
 - #### Transparência referencial
 - #### First-class function e High-order functions
 
+___
+
+![bg fit](assets/techs_list.png)
+
+___
+
+![bg 60%](assets/techs_list_procedural.png)
+___
+
+![bg 60%](assets/techs_list_functional.png)
+
 ---
 
 ![bg](#123)
@@ -88,7 +99,7 @@ SELECT campo1, campo2 FROM tabela WHERE campo3 = "valor";
 - #### Vantagens
   - ##### Funções puras são mais simples de entender
   - ##### Testar e debugar é mais fácil
-  - ##### Aplicação no uso de concorrência/paralelimo
+  - ##### Aplicação no uso de concorrência/paralelismo
   
 - #### Desvantagens
   - ##### Maior uso de memória e menos performático
